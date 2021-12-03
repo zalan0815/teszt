@@ -1,0 +1,451 @@
+@font-face {
+    font-family: robotobold;
+    src: url(betu/Roboto-Bold.ttf);
+  }
+ @font-face {
+    font-family: tesla;
+    src: url(betu/TESLA.ttf);
+  }
+html{
+  font-family: robotobold;
+}
+body{
+    background-color: black;
+    font-family: robotobold;
+    color: white;
+    margin: 0;
+}
+h1{
+  text-align: center;
+  letter-spacing: 10px;
+}
+.tesla{
+    text-align: center;
+    font-size: 60px;
+    font-family: tesla;
+    color: white;
+    text-decoration: none;
+}
+h1:hover{
+    transform: scale(1.2);
+    transition: transform 200ms;
+}
+#menu{
+    width: 80%;
+    border-top: 3px solid white;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: robotobold;
+  }
+  .button:hover{
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+  }
+  .button:active{
+    color: black;
+    background-color: grey;
+  }
+.button2{
+  color: white;
+  background-color: #0098ff;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: robotobold;
+  border-radius: 20px;
+}
+  .button2:hover{
+    background-color: #0060ff;
+  }
+  .button2:active{
+    background-color: #4610ff;
+  }
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: robotobold;
+    font-size: 50px;
+    border: 0;
+}
+img{
+  display: block;
+  width: 100%;
+}
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bottomed {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: robotobold;
+  font-size: 20px;
+  clear: both;
+}
+.kulonbutton{
+  color: black;
+  background-color: grey;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: robotobold;
+  border-radius: 100px;
+}       
+.cim{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}              
+.alcim{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}  
+.adatok{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  width: 70%;
+  color: white;
+}
+#adatok{
+  width: 100%;
+  border-collapse: collapse;
+  padding: 10px;
+}        
+#megnevezes{
+  font-size: 15px;
+}           
+#megrendeles{
+  border: solid 3px white;
+  border-radius: 100px;
+  background: none;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
+}  
+  #megrendelesszoveg{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+  }               
+  #megrendeles:hover{
+    background-color: white;
+  }   
+  #megrendelesszoveg:hover{
+    color: black;
+  }   
+.szoveg1{
+  position: absolute;
+  top: 37%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 7px;
+  background-color: rgb(0, 0, 0, 30%);
+}
+.szoveg2{
+  position: absolute;
+  top: 33%;
+  left: 63%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 7px;
+  background-color: rgb(0, 0, 0, 30%);
+}
+.szoveg3{
+  position: absolute;
+  top: 63%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 7px;
+  background-color: rgb(0, 0, 0, 30%);
+}
+.szoveg4{
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 7px;
+  background-color: rgb(0, 0, 0, 30%);
+}
+.szoveg5{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+.szoveg6{
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+.szoveg7{
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+.szoveg8{
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding: 7px;
+  background-color: rgb(0, 0, 0, 10%);
+}
+.szoveg9{
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding: 7px;
+  background-color: rgb(0, 0, 0, 10%);
+}
+.szoveg10{
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding: 7px;
+  background-color: rgb(0, 0, 0, 10%);
+}
+.hajtaslanc{
+  color: grey;
+  text-align: left;
+  margin: 0, 0;
+  padding: 5% 15%;
+  background-color: white;
+  font-size: 20px;
+}
+h2{
+  font-size: 30px;
+  color: black;
+}
+.autopilot{
+  width: 80%;
+  margin: 0% auto 10% auto;
+  color:darkgray;
+  border-top: black solid 2px;
+  font-size: 20px;
+}
+#autopilotcimek{
+  font-size: 30px;
+  color: black;
+}
+.osszesadat{
+  color: white;
+  font-size: 20px;
+  margin: 0 5% 0 35%;
+  width: 60%;
+  border-collapse: collapse;
+}
+  #osszesadatcim{
+    border: 4px solid white;
+    border-radius: 100px;
+  }
+  #osszesadatalcim{
+    font-size: 25px;
+    border-right: 2px solid white;
+    text-align: right;
+    padding-right: 10px;
+  }
+  #jobbvonal{
+    border-right: 2px solid white;
+  }
+.osszesadatkep{
+  width: 38%;
+  float: left;
+}
+#megrendeles2{
+  border: solid 3px black;
+  border-radius: 100px;
+  background: none;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+  #megrendeles2szoveg{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+  }
+  #megrendeles2:hover{
+    background-color: grey;
+  }
+.balszoveg{
+  float: left;
+  width: 30%;
+  font-size: 20px;
+  color: darkgray;
+  background-color: rgb(240, 240, 240);
+  height: 100%;
+  padding: 15.4px;
+}
+  #balszoveg{
+    color: black;
+    font-weight: bold;
+  }
+.jobbkep{
+  float: right;
+  width: 68%;
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: robotobold;
+  font-size: 50px;
+  border: 0;
+}
+#biztonsag{
+  padding: 5px;
+  color: black;
+  background-color: grey;
+  margin-top: 20%;
+  margin-bottom: 24.6%;
+  border-radius: 30px;
+}
+.balkep{
+  clear: both;
+  position: relative;
+  border: 0;
+  background-image: url('images/model3belso.avif');
+  height: 1080px;
+}
+.balkep2{
+  clear: both;
+  position: relative;
+  border: 0;
+  background-image: url('images/modelybelso.avif');
+  height: 1080px;
+}
+.jobbszoveg{
+  float: right;
+  color: white;
+  font-size: 18px;
+  width: 23%;
+  margin-top: 20%;
+}
+.jobbszoveg2{
+  background-color: rgb(0, 0, 0, 20%);
+  border-radius: 10px;
+  padding: 20px;
+  float: right;
+  color: white;
+  font-size: 18px;
+  width: 23%;
+  margin-top: 20%;
+}
+  #jobbszovegcim{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+#jobbszovegkep{
+  width: 50px;
+}
+#jobbszovegp{
+  padding-bottom: 60px;
+}
+.alsoszoveg{
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  #alsoszoveg{
+    color:white;
+    font-size: 20px;
+    width: 1000px;
+  }
+  #alsoszovegth{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+  }
+#osszesites{
+  color: white;
+  border-collapse: collapse; 
+  font-size: 25px;
+  margin-bottom: 20%;
+}
+  #osszesitesadat{
+    font-size: 20px;
+  }
+  #csomagter{
+    background-color: black;
+  }
+  #csomagtercimek{
+    width: 35%;
+    padding-left: 30%;
+  }
